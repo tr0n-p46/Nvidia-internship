@@ -1,0 +1,18 @@
+1. Initially I thought of writing Vec2D and extend Vec3D from it but I found it wasn't so useful to me so wrote Vec3D directly.
+2. The entire Class declaration is given in the header file Vec3D.h and it's corresponding implementation in Vec3D.cpp
+3. Constructors
+	-> Overloaded constructors for initializing under several situations like using 2D point with this etc.
+4. Getters and Setters
+	-> Member variables x,y,z can only be accessed through getters and setters and if inherited in another class.
+5. Operator Overloading
+	->  Operators used with basic data types have been overloaded to be used with Vec3D type objects in a similar fashion.
+6. Mathematical operations
+	-> Normalize
+	-> Magnitude
+	-> Cross Product
+	-> Dot product
+	-> Distance
+
+In Linux :
+	Compiling : g++ 2.cpp Vec3D -o 2
+	Running : ./2
